@@ -39,10 +39,14 @@ env/
 *.MOV
 *.m4v
 
-# Datasets pesados en actividades (>50MB típicamente)
-# Guardar en Drive externo y referenciar en el documento
-actividades/*/datos/*.csv
+# Datasets en formatos tipicamente pesados
 actividades/*/datos/*.parquet
 actividades/*/datos/*.h5
+actividades/*/datos/*.hdf5
 actividades/*/datos/*.feather
 actividades/*/datos/*.pkl
+actividades/*/datos/*.npy
+actividades/*/datos/*.npz
+
+# Datasets CSV grandes especificos (agregar a mano cuando aparezcan archivos >50MB)
+**/02Dataset_sin_procesar.csv
