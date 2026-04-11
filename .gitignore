@@ -31,3 +31,18 @@ env/
 # Env / secretos
 .env
 .env.local
+
+# Grabaciones de clase (pesadas, van a Notion/Drive)
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.m4v
+
+# Datasets pesados en actividades (>50MB típicamente)
+# Guardar en Drive externo y referenciar en el documento
+actividades/*/datos/*.csv
+actividades/*/datos/*.parquet
+actividades/*/datos/*.h5
+actividades/*/datos/*.feather
+actividades/*/datos/*.pkl
