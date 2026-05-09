@@ -38,6 +38,15 @@ env/
 *.mov
 *.MOV
 *.m4v
+*.mp3
+*.MP3
+*.wav
+*.m4a
+
+# Backups
+*.bak
+*.backup
+*~
 
 # Datasets en formatos tipicamente pesados
 actividades/*/datos/*.parquet
